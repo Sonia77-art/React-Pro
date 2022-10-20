@@ -3,20 +3,50 @@
 
 .App-header {
   background-color: #061941;
-  min-height: 1vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: left;
-  font-size: calc(10px + 2vmin);
-  color: rgb(25, 136, 180);
+  font-size: calc(10px + 3vmin);
+  color: rgb(212, 29, 178);
+  box-sizing:70%;
+  
+}
+
+.App{
+ margin-top: 60px;
+ margin-bottom: 60px;
+ margin-left: 80px;
+ margin-right: 80px;
+ background-color: rgb(152, 170, 218);
+ box-sizing: 30%;
+
   
 }
 
 .picture {
- 
+ display: flex;
   width:1px;
-  height:5px;
+  height:13px;
   
 }
 
+.container{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+
+ 
+}
+
+.Navbar-4{
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.heading{
+  display: flex;
+  justify-content: left center;
+  font-size: 20 px;
+}

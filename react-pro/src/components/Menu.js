@@ -6,8 +6,9 @@ export default function Menu (props) {
     }
     return (
         <div className="Menu">
-            <button onClick={handleClick}>{props.text}</button>
+            <button color="red" onClick={handleClick}>{props.text}</button>
             { isOpen && props.children }
+            
         </div>
     );
 }
