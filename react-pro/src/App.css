@@ -3,12 +3,20 @@
 
 .App-header {
   background-color: #061941;
-  min-height: 100vh;
+  min-height: 1vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(25, 136, 180);
+  
+}
+
+.picture {
+ 
+  width:1px;
+  height:5px;
+  
 }
 
