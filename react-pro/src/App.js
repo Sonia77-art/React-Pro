@@ -5,6 +5,7 @@ import './App.css';
 import food from './food.jpg';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Counter from './components/Quantity';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -58,8 +59,9 @@ function App() {
                           <li><a href="#">Mission</a></li>
                   </ul>
         </Menu>
-        </div>
-        
+
+                </div>    
+    
 
   </div>   
   
@@ -75,6 +77,7 @@ function App() {
          <MyButton/>
          <Order/>
          <Counter/>
+         
         </div>
 
     
