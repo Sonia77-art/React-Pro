@@ -1,4 +1,6 @@
+import '../App.css';
 import {useState} from "react";
+
 export default function Menu (props) {
     const [isOpen, setIsOpen] = useState(false);
     function handleClick(event) {
@@ -6,7 +8,7 @@ export default function Menu (props) {
     }
     return (
         <div className="Menu">
-            <button color="red" onClick={handleClick}>{props.text}</button>
+            <button className= "Nav-Btn" onClick={handleClick}>{props.text}</button>
             { isOpen && props.children }
             
         </div>

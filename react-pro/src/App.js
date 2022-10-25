@@ -1,15 +1,20 @@
-
-
+import MyButton from './components/MyButton';
+import Order from './components/Order';
 import Menu from './components/Menu';
 import './App.css';
 import food from './food.jpg';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Counter from './components/Quantity';
 
 function App() {
   return (
+    
     <div className="App">
+      
+        <div className="container">
+       
+           <div className="Navbar-1">
 
-    <div className="container">
-       <div className="Navbar-1">
          <Menu text = "Menu">
               <ul>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -19,9 +24,10 @@ function App() {
               </ul>
         </Menu>
       </div>
+      
 
       <div className="Navbar-2">
-       <Menu text= "About Us">
+           <Menu text= "About Us">
                <ul>
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <li><a href= "#">Locations</a></li>
@@ -53,24 +59,30 @@ function App() {
                   </ul>
         </Menu>
         </div>
+        
 
   </div>   
   
     <header className="App-header">
-        <div className="picture">
-            <img src= {food}
+        <img src= {food}
               alt="food.jpg" 
-               width= "1000px"
-                 height= "750px"></img>
+               width= "500px"
+                 height= "800px">
+        </img>
+        <div>
+         <p id= "heading">Bringing Heathly Food In Your Life</p> 
+         <br/>
+         <MyButton/>
+         <Order/>
+         <Counter/>
         </div>
-       
-   <div className="heading">
- 
-        <p>Bringing Heathly Food In Your Life</p>
-     </div>   
-        
-      </header>
-      </div>
+
+    
+    
+
+    </header>
+      
+ </div>
              
              
   );
