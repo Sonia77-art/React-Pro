@@ -12,7 +12,7 @@ export default function Form() {
     <div className="Form">
       {isFormVisible ? (
         <form className="Print-values">
-          <h6 classname="Info">ORDER HERE</h6>
+          <h3 classname="Info">ORDER HERE</h3>
           <label for="fname">First Name </label>
           <br />
           <input type="text" placeholder="Enter Your First Name" />

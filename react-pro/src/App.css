@@ -1,11 +1,11 @@
 .App-header {
-  background-color: #061941;
+  background-color: #5f666ada;
   min-height: 100vh;
   display: flex;
   flex-direction: row;
 
   font-size: calc(10px + 3vmin);
-  color: rgb(212, 29, 178);
+  color: rgb(16, 6, 14);
   width: 100%;
   height: 100%;
 }
@@ -15,7 +15,7 @@
   margin-bottom: 60px;
   margin-left: 80px;
   margin-right: 80px;
-  background-color: rgb(152, 170, 218);
+  background-color: rgb(104, 130, 196);
   box-sizing: 30%;
 }
 
@@ -27,31 +27,21 @@
 
 .container {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-sizing: border-box;
+  align-items: right;
+  justify-content: space-between;
   padding: 25px;
-  font-style: italic;
+  font-style: sans-serif;
 }
 
 .Navbar-4 {
-  box-sizing: border-box;
-  font-style: italic;
+  font-style: roboto;
 }
 
 p {
-  color: white;
+  color: rgb(13, 10, 33);
   text-align: center !important;
-  font-style: italic;
+  font-style: sans-serif;
   font-size: 40px;
-}
-
-.btn {
-  border-color: greenyellow;
-  font-weight: bold;
-  font-size: 60%;
-  background-color: rgb(95, 209, 164);
-  align-items: right;
 }
 
 .Nav-Btn {
@@ -66,12 +56,14 @@ p {
 
 .Form {
   display: flex;
+
   border: dotted;
+  padding-left: 20px;
   border-color: white;
-  margin-block: 10px;
+  margin-block: 5px;
   justify-content: center;
-  font-display: white;
-  color: white;
+  font-display: rgb(112, 102, 102);
+  color: rgb(14, 7, 31);
 }
 
 .button {
@@ -80,6 +72,6 @@ p {
 }
 
 .Print-values {
-  font-style: italic;
+  font-style: sans-serif;
   font-size: 18px;
 }
