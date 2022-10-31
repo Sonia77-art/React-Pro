@@ -20,11 +20,13 @@ export default function Order() {
           <option value="VEGETABLES">VEGETABLES</option>
         </select>
       </label>
-      <numberarea
-        placeholder="QUANTITY"
-        value={1}
-        onChange={(e) => setNumber(e.target.value)}
-      />
+      <lable>
+        <numberarea
+          placeholder="QUANTITY"
+          value={1}
+          onChange={(e) => setNumber(e.target.value)}
+        />
+      </lable>
     </form>
   );
 }
