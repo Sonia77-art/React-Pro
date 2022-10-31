@@ -1,16 +1,18 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Counter() {
   const [number, setNumber] = useState(1);
 
   return (
     <>
-      <p className= "P" >Quantity :</p>
-      <button onClick={() => {
-        setNumber(number + 1);
-         }}>{number}</button>
+      <h5 className="value">Quantity :</h5>
+      <button
+        onClick={() => {
+          setNumber(number + 1);
+        }}
+      >
+        {number}
+      </button>
     </>
-  )
+  );
 }
-        
-    

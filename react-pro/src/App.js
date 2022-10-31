@@ -85,11 +85,10 @@ function App() {
         <img src={food} alt="food.jpg" width="500px" height="800px"></img>
         <div>
           <p id="heading">Bringing Heathly Food In Your Life</p>
-          <br />
-          <MyButton />
-          <Order />
-          <Counter />
           <Form />
+          {/*<MyButton />
+          <Order />
+  <Counter />*/}
         </div>
       </header>
     </div>

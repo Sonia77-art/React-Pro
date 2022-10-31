@@ -13,10 +13,10 @@ export default function Order() {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        <p style={{ fontSize: "15px" }}> To: </p>
+        <p style={{ fontSize: "18px" }}> Choose Your Product</p>
         <select value={to} onChange={(e) => setTo(e.target.value)}>
-          <option value="Choose">Choose</option>
-          <option value="MEAT">MEAT</option>
+          <option value="Dairy Products">Dairy Product</option>
+          <option value="MEAT Products">MEAT</option>
           <option value="VEGETABLES">VEGETABLES</option>
         </select>
       </label>
@@ -25,7 +25,6 @@ export default function Order() {
         value={1}
         onChange={(e) => setNumber(e.target.value)}
       />
-      <button type="ORDER">Send</button>
     </form>
   );
 }

@@ -1,46 +1,65 @@
 import { useState } from "react";
+import "../App.css";
+import Order from "./Order";
 
 export default function Form() {
-  const [information, setInformatiom] = useState("true");
-  const [submit, setSubmit] = useState("false");
-  const informationHandler = () => {
-    setInformatiom(true);
-    setSubmit(false);
-  };
-  const submitHandlers = () => {
-    setSubmit(false);
-    setInformatiom(true);
+  const [isFormVisible, setIsFormVisible] = useState(true);
+  const handleInformationClick = () => {
+    setIsFormVisible(!isFormVisible);
   };
 
   return (
-    <>
-      <div form className="Print-values">
-        <border>
-          <h4>Contact Information</h4>
-          <label for="fname">First Name</label>
+    <div className="Form">
+      {isFormVisible ? (
+        <form className="Print-values">
+          <h6 classname="Info">ORDER HERE</h6>
+          <label for="fname">First Name </label>
+          <br />
           <input type="text" placeholder="Enter Your First Name" />
           <br />
-          <label for="fname">Last Name</label>
+          <label for="fname">Last Name </label>
           <br />
           <input type="text" placeholder="Enter Your last Name" />
-          <label for="fname">Address</label>
           <br />
-          <input type="text" />
+          <label for="fname">Address </label>
+          <br />
+          <input type="text" placeholder="Enter your address" />
+          <br />
           <label for="fname">Email</label>
+          <br />
           <input type="text" placeholder="Enter Your Email Address" />
           <br />
-          <label for="fname">Phone Number</label>
-          <input
-            type="number"
-            placeholder="Enter Your Number in International format"
-          />
+          <label for="fname">Phone Number </label>
           <br />
-          <button className="Button" type="submit">
+          <input type="number" placeholder="Enter Your Number" />
+          <Order />
+          <br />
+          <button
+            className="Button"
+            type="submit"
+            onClick={handleInformationClick}
+          >
             Submit
           </button>
           <br />
-        </border>
-      </div>
-    </>
+          <br />
+        </form>
+      ) : (
+        <div>
+          <h5>
+            thank You !
+            <br />
+            Your Order has been placed!
+          </h5>
+          <br />
+          <button
+            className="change input"
+            onClick={() => setIsFormVisible(true)}
+          >
+            Back
+          </button>
+        </div>
+      )}
+    </div>
   );
 }
