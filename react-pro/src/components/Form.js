@@ -39,7 +39,7 @@ export default function Form() {
             type="submit"
             onClick={handleInformationClick}
           >
-            Submit
+            SUBMIT
           </button>
           <br />
           <br />
@@ -47,7 +47,7 @@ export default function Form() {
       ) : (
         <div>
           <h5>
-            thank You !
+            Thank You !
             <br />
             Your Order has been placed!
           </h5>
@@ -56,7 +56,7 @@ export default function Form() {
             className="change input"
             onClick={() => setIsFormVisible(true)}
           >
-            Back
+            BACK
           </button>
         </div>
       )}
