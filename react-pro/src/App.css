@@ -1,5 +1,5 @@
 .App-header {
-  background-color: #5f666ada;
+  background-color: #ffffdd;
   min-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -15,7 +15,7 @@
   margin-bottom: 60px;
   margin-left: 80px;
   margin-right: 80px;
-  background-color: rgb(104, 130, 196);
+  background-color: #a374d5;
   box-sizing: 30%;
 }
 
@@ -48,10 +48,6 @@ p {
   background-color: rgb(240, 242, 237);
   align-items: center;
   font-weight: bold;
-}
-
-.border {
-  border-color: white;
 }
 
 .Form {
