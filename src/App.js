@@ -1,11 +1,6 @@
-import MyButton from "./components/MyButton";
-import Order from "./components/Order";
 import Menu from "./components/Menu";
 import "./App.css";
 import food from "./food.jpg";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Counter from "./components/Quantity";
-import Search from "./components/Search";
 import Form from "./components/Form";
 
 function App() {
@@ -86,9 +81,6 @@ function App() {
         <div>
           <p id="heading">Bringing Heathly Food In Your Life</p>
           <Form />
-          {/*<MyButton />
-          <Order />
-  <Counter />*/}
         </div>
       </header>
     </div>
