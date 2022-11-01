@@ -50,15 +50,15 @@ function App() {
             <ul>
               <li>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a href="#">Meat</a>
+                <a href="#">Takeaway</a>
               </li>
               <li>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a href="#">vegetables</a>
+                <a href="#">Buy Happliy</a>
               </li>
               <li>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a href="#">Dairy Products</a>
+                <a href="#">Discounts</a>
               </li>
             </ul>
           </Menu>
