@@ -3,10 +3,10 @@ name: CI/CD
 on:
   push:
     branches:
-      - main
+      - react-pro
   pull_request:
     branches:
-      - main
+      - react-pro
 
 jobs:
   # The build job
@@ -30,7 +30,7 @@ jobs:
         uses: nwtgck/actions-netlify@v1.2
         with:
           publish-dir: "./build"
-          production-branch: main
+          production-branch: react-pro
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Deploy from GitHub Actions"
           enable-pull-request-comment: false
