@@ -10,14 +10,16 @@ function App() {
         <div className="Navbar-1">
           <Menu text="Menu">
             <ul>
-              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Meat</a>
               </li>
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">vegetables</a>
               </li>
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Dairy Products</a>
               </li>
             </ul>
@@ -27,14 +29,16 @@ function App() {
         <div className="Navbar-2">
           <Menu text="About Us">
             <ul>
-              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Locations</a>
               </li>
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Company </a>
               </li>
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Contact</a>
               </li>
             </ul>
@@ -44,14 +48,16 @@ function App() {
         <div className="Navbar-3">
           <Menu text="Service">
             <ul>
-              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Meat</a>
               </li>
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">vegetables</a>
               </li>
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Dairy Products</a>
               </li>
             </ul>
@@ -61,14 +67,16 @@ function App() {
         <div className="Navbar-4">
           <Menu text="Info">
             <ul>
-              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Apply</a>
               </li>
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">employment</a>
               </li>
               <li>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">Mission</a>
               </li>
             </ul>
